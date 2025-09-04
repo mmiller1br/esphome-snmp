@@ -2,8 +2,7 @@
 
 This is an external ESPHome component that enables support for SNMP protocol. The protocol is widely used in network management and network monitoring.
 
-**Documentation:** https://aquaticus.info/snmp.html
+**Documentation:** UNDER CONSTRUCTION (for the new variables)
 
-**Integration tests:** https://github.com/aquaticus/esphome_snmp_tests
 
 Tested with ESPHome version 2024.3.1
