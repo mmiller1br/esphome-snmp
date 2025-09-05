@@ -37,5 +37,14 @@ snmp:
 - **read_community** (Optional, string): name of the READ ONLY community. Defaults to "public".
 - **write_community** (Optional, string): name of the READ WRITE community. Defaults to "private".
 - **temperature** (Optional, string): ID of a sensor with temperature information. Values will be publiched as INTEGER, for example 20.5 is equal to 215.
+  Value for Temperature Custom OID (1.3.9999.10.1.0)
 - **humidity** (Optional, string): ID of a sensor with humidity information. Values will be publiched as INTEGER, for example 67.8 is equal to 678.
+  Value for Humidity Custom OID (1.3.9999.10.2.0)
+
+## Example of SNMP Walk with new OIDs
+
+- Temperature: 22.2 Celsius
+- Humidity: 54%
+  
+<img width="675" height="464" alt="image" src="https://github.com/user-attachments/assets/cfe2ae0f-16b1-4b0f-900d-de6b30cfc67b" />
 
